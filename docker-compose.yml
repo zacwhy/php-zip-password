@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+
+  php_5_5:
+    build: ./php_5_5
+    volumes:
+      - ./out:/out
+
+  php_7_2:
+    build: ./php_7_2
+    volumes:
+      - ./out:/out
